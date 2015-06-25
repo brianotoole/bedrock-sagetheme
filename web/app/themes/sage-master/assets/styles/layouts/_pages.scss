@@ -1,0 +1,10 @@
+/* Home pg */
+section.intro {
+    background: url('http://placekitten.com/1200/700');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.home section.intro div:nth-child(1) {
+  	margin-top: 200px;
+}

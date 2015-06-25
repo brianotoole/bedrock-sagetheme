@@ -1,9 +1,14 @@
 /*  Header styles */
 
 header {
+  width: 100%;
   padding: 25px 0;
   background: transparent;
   border-bottom: 2px solid $border-1;
+}
+header.fixed {
+	position: fixed;
+	z-index: 1;
 }
 
 #logo, 
@@ -25,7 +30,7 @@ a.brand {
   	background-position: -129px -41px;
   	margin-top: 15px;
   	margin-left: 70px;
-  	color: $brand-primary;
+  	color: $blue;
   	font-size: 1.5em;
   	font-weight: 100;
   	text-transform: uppercase;
@@ -42,9 +47,8 @@ a.brand {
 	display: inline-block;
 }
 .nav>li>a {
-	margin-right: 15px;
-	color: $brand-secondary;
-	text-transform: uppercase;
+	padding: 10px;
+	color: $darkgreen;
 	font-size: 1.1em;
 }
 

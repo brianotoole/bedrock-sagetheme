@@ -1,4 +1,4 @@
-<header class="banner" role="banner">
+<header class="fixed">
   <div class="container clearfix">
     <a id="logo" class="brand" href="<?= esc_url(home_url('/')); ?>">
     <span><?php bloginfo('name'); ?></span></a>
