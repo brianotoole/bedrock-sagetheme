@@ -22,12 +22,14 @@ sql-dump-*.sql
 
 # Dotenv
 .env
+.env.example
 .env.*
 !.env.example
 
 # Vendor (e.g. Composer)
 vendor/*
 !vendor/.gitkeep
+composer.phar
 
 # Node Package Manager
 node_modules
