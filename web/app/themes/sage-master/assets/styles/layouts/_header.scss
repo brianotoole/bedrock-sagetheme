@@ -1,0 +1,51 @@
+/*  Header styles */
+
+header {
+  padding: 25px 0;
+  background: transparent;
+  border-bottom: 2px solid $border-1;
+}
+
+#logo, 
+a.brand {
+  display: block;
+  margin-top: 12px;
+  width: 61px;
+  height: 57px;
+  float: left;
+  background: url('../images/ui.png') no-repeat -71px 0;
+  background-size: 400px 200px;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+  
+  span {
+    display: block;
+  	background-position: -129px -41px;
+  	margin-top: 15px;
+  	margin-left: 70px;
+  	color: $brand-primary;
+  	font-size: 1.5em;
+  	font-weight: 100;
+  	text-transform: uppercase;
+  }
+  
+}
+
+.nav {
+	float: right;
+	margin: 20px 0;
+}
+
+.nav>li {
+	display: inline-block;
+}
+.nav>li>a {
+	margin-right: 15px;
+	color: $brand-secondary;
+	text-transform: uppercase;
+	font-size: 1.1em;
+}
+
+

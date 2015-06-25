@@ -1,4 +1,14 @@
-@import "common/_variables";
+//@import "common/_variables";
+// Glyphicons font path
+$icon-font-path: "../fonts/";
+// Grid settings
+$main-sm-columns: 12;
+$sidebar-sm-columns: 4;
+// Colors
+$brand-primary: #27ae60; //green
+$brand-secondary: #51463f; //brown-ish
+// Border Colors
+$border-1: rgba(204, 204, 204, 0.2); //define
 
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
