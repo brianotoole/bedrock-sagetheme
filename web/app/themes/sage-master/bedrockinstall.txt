@@ -1,0 +1,20 @@
+# Bedrock Stack / Workflow setup FROM BLANK
+# Requirements: php>=5.4 + composer installed locally or globally
+
+1. install composer into project dir:   https://getcomposer.org/doc/00-intro.md
+2. clone bedrock repo into project dir:   git clone https://github.com/roots/bedrock.git
+3. run composer install:   php composer.phar install
+4. copy .env.example to .env and update environment variables (similar to wp-config)
+5. add a theme or copy over "sage" theme into "web/app/themes"
+6. install npm globally (if not already on server):   npm install -g npm@latest
+7. install gulp and blower globally:   npm install -g gulp bower
+8. install npm into theme dir "web/app/themes/theme-name":   npm install
+9. run:   bower install
+10. to use BrowserSync during gulp watch you need update devUrl at the bottom of assets/manifest.json to reflect your local development hostname.open "manifest.json" file and edit "config / DEVURL"
+11. run:   gulp watch (opens: http://devUrl:3000/)
+
+
+
+# Bedrock re-setup after exist
+
+1. run:   gulp watch
